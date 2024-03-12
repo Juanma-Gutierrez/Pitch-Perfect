@@ -21,7 +21,6 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="RecordButton"/>
                                 <connections>
-                                    <action selector="dfgdfg:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pBp-g6-JTk"/>
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kBm-pJ-xXD"/>
                                 </connections>
                             </button>
@@ -47,6 +46,7 @@
                                 </connections>
                             </button>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="qDj-zW-tfB"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <rect key="contentStretch" x="0.0" y="0.0" width="0.59999999999999998" height="1"/>
                         <constraints>
@@ -90,7 +90,6 @@
         <!--Navigation Controller-->
         <scene sceneID="O96-8E-SDA">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jgf-Z3-7DA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XIZ-Dk-Kw3" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Nla-9J-rxc">
@@ -102,6 +101,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KmA-XC-66z"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jgf-Z3-7DA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-379.38931297709922" y="-27.464788732394368"/>
         </scene>
